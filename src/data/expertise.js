@@ -1,0 +1,42 @@
+export const expertiseData = [
+  {
+    delay: '0s',
+    iconClass: '',
+    icon: '<path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>',
+    title: 'Profisee MDM',
+    desc: 'Data modeling, quality enforcement, workflow design, and master data governance implementation',
+    tags: ['Data Modeling', 'Quality Rules', 'Workflows'],
+  },
+  {
+    delay: '0.1s',
+    iconClass: 'azure',
+    icon: '<path d="M22 12c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2s10 4.48 10 10z"/><path d="M12 6v6l4 2"/>',
+    title: 'Azure Cloud Stack',
+    desc: 'End-to-end Azure data solutions including ADF pipelines, Databricks, and Data Lake architecture',
+    tags: ['ADF', 'Databricks', 'Data Lake'],
+  },
+  {
+    delay: '0.2s',
+    iconClass: '',
+    icon: '<polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>',
+    title: 'Data Engineering',
+    desc: 'Building robust ETL/ELT pipelines with PySpark, SQL, and Python for enterprise-scale data processing',
+    tags: ['PySpark', 'SQL', 'Python'],
+  },
+  {
+    delay: '0.3s',
+    iconClass: '',
+    icon: '<path d="M4 4h16v16H4zM4 12h16M12 4v16"/>',
+    title: 'System Integration',
+    desc: 'Seamless SAP/non-SAP system integration via WebMethods for unified data ecosystems',
+    tags: ['WebMethods', 'SAP', 'APIs'],
+  },
+  {
+    delay: '0.4s',
+    iconClass: '',
+    icon: '<path d="M12 2a10 10 0 0 1 10 10c0 5.52-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z"/><path d="M12 8v8M8 12h8"/>',
+    title: 'AI & Machine Learning',
+    desc: 'Statistics foundation with emerging LLM technologies for intelligent data solutions',
+    tags: ['Statistics', 'ML', 'LLMs'],
+  },
+];
