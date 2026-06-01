@@ -1,5 +1,37 @@
 export const projects = [
   {
+    tag: 'AI Automation & Workspaces',
+    client: 'Elision Tech',
+    title: 'OpenClaw & Workflow Automation',
+    desc: 'Designed and implemented OpenClaw workspaces for lead generation, WhatsApp automation, and CRM integrations (Pipedrive). Developed n8n automation pipelines to streamline cross-team workflows and email automation systems.',
+    metrics: [{ number: 'n8n', label: 'Orchestration' }, { number: 'CRM', label: 'Pipedrive integration' }],
+    tech: ['OpenClaw', 'n8n', 'WhatsApp API', 'Pipedrive', 'AI Automation'],
+  },
+  {
+    tag: 'Agentic AI / SRE',
+    client: 'OpenSRE',
+    title: 'Autonomous DevOps & SRE Agent',
+    desc: 'Built an autonomous AI DevOps agent using LangGraph and LLM workflows. Implemented DETECT-ANALYZE-DECIDE-ACT pipelines for infrastructure monitoring, automated root cause analysis, and multi-channel incident notifications (Slack, Telegram, WhatsApp).',
+    metrics: [{ number: 'LangGraph', label: 'Agentic Workflows' }, { number: 'Docker', label: 'Deployment' }],
+    tech: ['LangGraph', 'Docker', 'Slack/Telegram APIs', 'DevOps AI'],
+  },
+  {
+    tag: 'Voice Intelligence & RAG',
+    client: 'Elision Tech',
+    title: 'Engage IQ Voice Platform',
+    desc: 'Developed multilingual voice customer support agents with accent handling and RAG pipelines using Vapi. Built speech-to-text pipelines (Whisper), Pinecone vector search, and hallucination detection to processing thousands of customer calls daily.',
+    metrics: [{ number: 'Vapi', label: 'Voice support agent' }, { number: 'Pinecone', label: 'Vector Database' }],
+    tech: ['Vapi', 'Whisper', 'Pinecone', 'RAG', 'Supabase'],
+  },
+  {
+    tag: 'LLM Orchestration',
+    client: 'Open Source',
+    title: 'lc-shift: Multi-LLM Router',
+    desc: 'Contributed to lc-shift, a multi-LLM routing framework to optimize model selection dynamically based on prompt complexity, latency, and cost. Developed intelligent orchestrations supporting OpenAI, Claude, Gemini, and Ollama.',
+    metrics: [{ number: 'Cost ↓', label: 'Optimized Inference' }, { number: 'Multi-LLM', label: 'Provider Agnostic' }],
+    tech: ['Ollama', 'OpenAI', 'Gemini', 'Claude', 'Routing Engine'],
+  },
+  {
     tag: 'Healthcare MDM',
     client: 'Fortrea',
     title: 'Organization & Investigator MDM',
@@ -15,21 +47,4 @@ export const projects = [
     metrics: [{ number: '95%', label: 'Data Quality Score' }, { number: '40%', label: 'Duplicate Reduction' }],
     tech: ['Profisee', 'Azure', 'SQL Server'],
   },
-  {
-    tag: 'Data Engineering',
-    client: 'Lexmark',
-    title: 'Azure Data Pipeline Optimization',
-    desc: 'Designed and optimized Azure Data Factory pipelines for real-time data integration across SAP and non-SAP systems using WebMethods.',
-    metrics: [{ number: '60%', label: 'Processing Time ↓' }, { number: '99.9%', label: 'Pipeline Uptime' }],
-    tech: ['ADF', 'WebMethods', 'SAP'],
-  },
-  {
-    tag: 'Analytics',
-    client: 'Recent',
-    title: 'Databricks Transformation Solution',
-    desc: 'Built scalable data transformation workflows on Databricks, enabling advanced analytics and machine learning capabilities for business intelligence.',
-    metrics: [{ number: '5x', label: 'Query Performance' }, { number: 'TB+', label: 'Data Processed' }],
-    tech: ['Databricks', 'PySpark', 'Delta Lake'],
-  },
 ];
-

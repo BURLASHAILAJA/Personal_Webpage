@@ -1724,3 +1724,199 @@ ul {
     }
 }
 
+/* Footer Social Group Styling */
+.footer-social {
+    display: flex;
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+.social-group {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+}
+
+.social-group span {
+    font-weight: 500;
+    color: var(--color-text-tertiary);
+}
+
+.social-group a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-tertiary);
+    border-radius: 50%;
+    font-size: var(--font-size-base);
+    transition: var(--transition-base);
+}
+
+.social-group a:hover {
+    background: var(--gradient-primary);
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* Team Grid & Card Styling */
+.about-team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: var(--spacing-2xl);
+    margin-top: var(--spacing-2xl);
+}
+
+.about-member-card {
+    background: var(--color-bg-card);
+    backdrop-filter: blur(25px);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-2xl);
+    transition: var(--transition-base);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.about-member-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    transition: var(--transition-base);
+}
+
+.about-member-card.cyan {
+    border: 1px solid rgba(6, 182, 212, 0.2);
+}
+.about-member-card.cyan::before {
+    background: var(--color-accent-cyan);
+}
+.about-member-card.cyan:hover {
+    border-color: var(--color-accent-cyan);
+    box-shadow: var(--shadow-glow-cyan);
+}
+
+.about-member-card.purple {
+    border: 1px solid rgba(139, 92, 246, 0.2);
+}
+.about-member-card.purple::before {
+    background: var(--color-accent-purple);
+}
+.about-member-card.purple:hover {
+    border-color: var(--color-accent-purple);
+    box-shadow: var(--shadow-glow-purple);
+}
+
+.member-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
+.member-avatar {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: var(--font-size-xl);
+    color: white;
+    flex-shrink: 0;
+}
+
+.cyan .member-avatar {
+    background: linear-gradient(135deg, var(--color-accent-cyan), #0891b2);
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.3);
+}
+
+.purple .member-avatar {
+    background: linear-gradient(135deg, var(--color-accent-purple), #7c3aed);
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.3);
+}
+
+.member-info h3 {
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    color: var(--color-text-primary);
+    margin-bottom: 2px;
+}
+
+.member-role {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+}
+
+.cyan .member-role {
+    color: var(--color-accent-cyan);
+}
+
+.purple .member-role {
+    color: var(--color-accent-purple);
+}
+
+.member-desc {
+    font-size: var(--font-size-sm);
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+}
+
+.member-highlights {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: var(--spacing-md);
+}
+
+.member-highlights h4 {
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-text-tertiary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.member-highlights ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.member-highlights li {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.member-highlights .bullet {
+    font-size: var(--font-size-xs);
+}
+
+.cyan .member-highlights .bullet {
+    color: var(--color-accent-cyan);
+}
+
+.purple .member-highlights .bullet {
+    color: var(--color-accent-purple);
+}
+
+@media (max-width: 480px) {
+    .about-team-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+

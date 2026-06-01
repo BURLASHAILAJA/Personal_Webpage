@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react';
 
 const TYPING_TEXTS = [
+  'AI Engineer & Automation Specialist',
+  'LLM Routing & Orchestration Lead',
+  'RAG & Agentic Workflow Architect',
   'Master Data Management Expert',
   'Azure Data Engineer',
-  'Profisee MDM Specialist',
-  'Databricks Solutions Architect',
-  'Data Quality & Governance Lead',
 ];
 
 function useTypingEffect(texts) {
@@ -101,14 +101,14 @@ export default function Hero() {
           <span>Available for Projects</span>
         </div>
         <h1 className="hero-title">
-          Master Data Management &<br />
-          <span className="gradient-text">Azure Data Engineer</span>
+          AI Automation &<br />
+          <span className="gradient-text">Data Engineering Partners</span>
         </h1>
         <p className="hero-subtitle">
           <span ref={typingRef} />
           <span className="typing-cursor">|</span>
         </p>
-        <p className="hero-description">Open to International Freelance &amp; Remote Opportunities</p>
+        <p className="hero-description">Moguloju Sai &amp; Shailaja Burla — Custom AI Agents &amp; Enterprise Data Infrastructure</p>
         <div className="hero-cta">
           <a href="#projects" className="btn btn-primary" onClick={(e) => scrollTo(e, '#projects')}>
             View Projects

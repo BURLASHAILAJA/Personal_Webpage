@@ -16,20 +16,42 @@ export default function Contact() {
                 <span>Available for freelance projects starting immediately</span>
               </div>
               <div className="contact-methods">
-                <a href="mailto:shailajaburla7755@gmail.com" className="contact-method">
-                  <span className="method-icon">📧</span>
-                  <div className="method-details">
-                    <span className="method-label">Email</span>
-                    <span className="method-value">shailajaburla7755@gmail.com</span>
-                  </div>
-                </a>
-                <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" className="contact-method">
-                  <span className="method-icon">💼</span>
-                  <div className="method-details">
-                    <span className="method-label">LinkedIn</span>
-                    <span className="method-value">linkedin.com/in/burlashailaja</span>
-                  </div>
-                </a>
+                <div className="contact-method-group" style={{ marginBottom: '15px' }}>
+                  <h4 style={{ fontSize: 'var(--font-size-xs)', textTransform: 'uppercase', color: 'var(--color-accent-cyan)', marginBottom: '8px' }}>Moguloju Sai (AI & Automation)</h4>
+                  <a href="mailto:saimoguloju2@gmail.com" className="contact-method" style={{ marginBottom: '5px' }}>
+                    <span className="method-icon">📧</span>
+                    <div className="method-details">
+                      <span className="method-label">Email</span>
+                      <span className="method-value">saimoguloju2@gmail.com</span>
+                    </div>
+                  </a>
+                  <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" className="contact-method">
+                    <span className="method-icon">💼</span>
+                    <div className="method-details">
+                      <span className="method-label">LinkedIn</span>
+                      <span className="method-value">linkedin.com/in/moguloju-sai-2b060b228</span>
+                    </div>
+                  </a>
+                </div>
+
+                <div className="contact-method-group" style={{ marginBottom: '15px' }}>
+                  <h4 style={{ fontSize: 'var(--font-size-xs)', textTransform: 'uppercase', color: 'var(--color-accent-purple)', marginBottom: '8px' }}>Shailaja Burla (Data & MDM)</h4>
+                  <a href="mailto:shailajaburla7755@gmail.com" className="contact-method" style={{ marginBottom: '5px' }}>
+                    <span className="method-icon">📧</span>
+                    <div className="method-details">
+                      <span className="method-label">Email</span>
+                      <span className="method-value">shailajaburla7755@gmail.com</span>
+                    </div>
+                  </a>
+                  <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" className="contact-method">
+                    <span className="method-icon">💼</span>
+                    <div className="method-details">
+                      <span className="method-label">LinkedIn</span>
+                      <span className="method-value">linkedin.com/in/burlashailaja</span>
+                    </div>
+                  </a>
+                </div>
+
                 <div className="contact-method">
                   <span className="method-icon">📍</span>
                   <div className="method-details">
@@ -37,25 +59,15 @@ export default function Contact() {
                     <span className="method-value">Hyderabad, India (Remote Global)</span>
                   </div>
                 </div>
-                <div className="contact-method">
-                  <span className="method-icon">🕐</span>
-                  <div className="method-details">
-                    <span className="method-label">Timezone</span>
-                    <span className="method-value">IST (UTC+5:30) | Flexible Hours</span>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
           <div className="contact-cta">
             <h3>Ready to start a project?</h3>
-            <p>Whether you need MDM consulting, Azure data engineering, or Databricks solutions—I'm here to help your data work harder for your business.</p>
+            <p>Whether you need custom AI agents, LLM orchestration, Vapi voice integrations, or enterprise Profisee MDM solutions and Databricks data lakes—we have you covered.</p>
             <div className="cta-buttons">
-              <a href="mailto:shailajaburla7755@gmail.com?subject=Project%20Inquiry" className="btn btn-primary btn-large">
-                Start a Conversation
-              </a>
-              <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" className="btn btn-secondary btn-large">
-                Connect on LinkedIn
+              <a href="mailto:saimoguloju2@gmail.com,shailajaburla7755@gmail.com?subject=Project%20Inquiry" className="btn btn-primary btn-large">
+                Email Both Partners
               </a>
             </div>
             <div className="currency-note">

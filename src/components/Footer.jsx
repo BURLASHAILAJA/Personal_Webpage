@@ -10,8 +10,8 @@ export default function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <span className="logo-text">SB</span>
-            <p>Building Trusted Data Ecosystems</p>
+            <span className="logo-text">S&S</span>
+            <p>AI Automation & Enterprise Data Systems</p>
           </div>
           <div className="footer-links">
             {['#about', '#expertise', '#projects', '#services', '#contact'].map((href) => (
@@ -21,12 +21,18 @@ export default function Footer() {
             ))}
           </div>
           <div className="footer-social">
-            <a href="mailto:shailajaburla7755@gmail.com" aria-label="Email">📧</a>
-            <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">💼</a>
+            <div className="social-group">
+              <span>Sai:</span>
+              <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" aria-label="Sai LinkedIn">💼</a>
+            </div>
+            <div className="social-group">
+              <span>Shailaja:</span>
+              <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" aria-label="Shailaja LinkedIn">💼</a>
+            </div>
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2026 Shailaja Burla. Open to International Opportunities.</p>
+          <p>© 2026 Sai &amp; Shailaja. Open to International Operations &amp; Freelance Contracts.</p>
         </div>
       </div>
     </footer>

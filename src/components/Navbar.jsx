@@ -29,7 +29,7 @@ export default function Navbar() {
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`} id="navbar">
       <div className="nav-container">
         <a href="#hero" className="nav-logo" onClick={(e) => scrollTo(e, '#hero')}>
-          <span className="logo-text">SB</span>
+          <span className="logo-text">S&S</span>
         </a>
         <button
           className={`nav-toggle${menuOpen ? ' active' : ''}`}
