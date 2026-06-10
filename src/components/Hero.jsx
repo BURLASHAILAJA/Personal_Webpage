@@ -1,11 +1,12 @@
 import { useEffect, useRef } from 'react';
 
 const TYPING_TEXTS = [
-  'AI Engineer & Automation Specialist',
-  'LLM Routing & Orchestration Lead',
-  'RAG & Agentic Workflow Architect',
-  'Master Data Management Expert',
-  'Azure Data Engineer',
+  'AI Agents & LLM Orchestration',
+  'Voice Intelligence Platforms',
+  'Enterprise MDM & Data Governance',
+  'Azure Data Engineering & Databricks',
+  'Workflow Automation & CRM Integration',
+  'RAG Pipelines & Vector Search',
 ];
 
 function useTypingEffect(texts) {
@@ -23,9 +24,9 @@ function useTypingEffect(texts) {
         if (elRef.current) elRef.current.textContent = current.substring(0, charIndex + 1);
         charIndex++;
       }
-      let speed = isDeleting ? 50 : 100;
-      if (!isDeleting && charIndex === current.length) { speed = 2000; isDeleting = true; }
-      else if (isDeleting && charIndex === 0) { isDeleting = false; textIndex = (textIndex + 1) % texts.length; speed = 500; }
+      let speed = isDeleting ? 50 : 90;
+      if (!isDeleting && charIndex === current.length) { speed = 2200; isDeleting = true; }
+      else if (isDeleting && charIndex === 0) { isDeleting = false; textIndex = (textIndex + 1) % texts.length; speed = 400; }
       timer = setTimeout(type, speed);
     }
     timer = setTimeout(type, 500);
@@ -98,23 +99,30 @@ export default function Hero() {
       <div className="hero-content" ref={contentRef}>
         <div className="availability-badge">
           <span className="pulse" />
-          <span>Available for Projects</span>
+          <span>Available for New Projects</span>
         </div>
         <h1 className="hero-title">
-          AI Automation &<br />
+          AI Automation &amp;<br />
           <span className="gradient-text">Data Engineering Partners</span>
         </h1>
         <p className="hero-subtitle">
           <span ref={typingRef} />
           <span className="typing-cursor">|</span>
         </p>
-        <p className="hero-description">Moguloju Sai &amp; Shailaja Burla — Custom AI Agents &amp; Enterprise Data Infrastructure</p>
+        <p className="hero-description">
+          Moguloju Sai (AI Engineer) &amp; Shailaja Burla (Data Engineer) — Your end-to-end technology team
+        </p>
+        <div className="hero-partner-tags">
+          <span className="partner-tag cyan">Sai — AI &amp; Automation</span>
+          <span className="hero-tag-divider">+</span>
+          <span className="partner-tag purple">Shailaja — Data &amp; MDM</span>
+        </div>
         <div className="hero-cta">
-          <a href="#projects" className="btn btn-primary" onClick={(e) => scrollTo(e, '#projects')}>
-            View Projects
+          <a href="#services" className="btn btn-primary" onClick={(e) => scrollTo(e, '#services')}>
+            Explore Services
           </a>
           <a href="#contact" className="btn btn-secondary" onClick={(e) => scrollTo(e, '#contact')}>
-            Schedule Consultation
+            Schedule a Call
           </a>
         </div>
         <div className="hero-stats">
@@ -123,8 +131,12 @@ export default function Hero() {
             <span className="stat-label">Years Experience</span>
           </div>
           <div className="stat">
-            <span className="stat-number">5</span>
-            <span className="stat-label">Certifications</span>
+            <span className="stat-number">6</span>
+            <span className="stat-label">Projects Delivered</span>
+          </div>
+          <div className="stat">
+            <span className="stat-number">2M+</span>
+            <span className="stat-label">Records Managed</span>
           </div>
           <div className="stat">
             <span className="stat-number">Fortune 500</span>
@@ -132,7 +144,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
     </section>
   );
 }

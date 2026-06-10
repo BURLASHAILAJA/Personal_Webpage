@@ -103,7 +103,7 @@ export default function Chatbot() {
       console.error(error);
       setMessages(prev => [
         ...prev,
-        { role: 'assistant', content: "Sorry, I'm having trouble connecting to the backend at the moment. Please feel free to email Shailaja directly at shailajaburla7755@gmail.com!" }
+        { role: 'assistant', content: "Sorry, I'm having trouble connecting right now. Please reach out directly — Sai: saimoguloju2@gmail.com | Shailaja: shailajaburla7755@gmail.com" }
       ]);
     } finally {
       setIsLoading(false);
@@ -147,8 +147,8 @@ export default function Chatbot() {
           <div className="header-info">
             <span className="online-dot"></span>
             <div>
-              <h4>Shailaja's Assistant</h4>
-              <p>Online & Ready to Help</p>
+              <h4>S&amp;S Assistant</h4>
+              <p>Ask about our services or availability</p>
             </div>
           </div>
           <button onClick={() => setIsOpen(false)} className="close-btn" aria-label="Close chat">

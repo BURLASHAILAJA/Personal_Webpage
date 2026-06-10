@@ -1,6 +1,18 @@
 export const techStack = [
   {
-    category: 'Cloud & Data Platforms',
+    category: "Sai — AI & Automation Stack",
+    partner: 'sai',
+    items: [
+      { name: 'LangGraph / LangChain', level: '90%' },
+      { name: 'Vapi Voice Platform', level: '90%' },
+      { name: 'n8n & OpenClaw', level: '90%' },
+      { name: 'OpenAI / Claude / Gemini', level: '95%' },
+      { name: 'Pinecone Vector DB', level: '85%' },
+    ],
+  },
+  {
+    category: "Shailaja — Cloud & Data Platforms",
+    partner: 'shailaja',
     items: [
       { name: 'Azure Data Factory', level: '95%' },
       { name: 'Databricks', level: '90%' },
@@ -9,7 +21,8 @@ export const techStack = [
     ],
   },
   {
-    category: 'Programming & Query',
+    category: "Shailaja — Programming & Query",
+    partner: 'shailaja',
     items: [
       { name: 'SQL', level: '95%' },
       { name: 'Python', level: '85%' },
@@ -17,12 +30,13 @@ export const techStack = [
     ],
   },
   {
-    category: 'Integration & Tools',
+    category: "Shared — Integration & Tools",
+    partner: 'shared',
     items: [
-      { name: 'WebMethods', level: '80%' },
-      { name: 'SAP Integration', level: '75%' },
+      { name: 'WebMethods / SAP', level: '80%' },
       { name: 'Power BI', level: '80%' },
-      { name: 'Git', level: '85%' },
+      { name: 'Git / GitHub', level: '85%' },
+      { name: 'Docker', level: '80%' },
     ],
   },
 ];

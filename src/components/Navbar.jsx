@@ -19,17 +19,19 @@ export default function Navbar() {
 
   const links = [
     { href: '#about', label: 'About' },
-    { href: '#expertise', label: 'Expertise' },
-    { href: '#certifications', label: 'Certifications' },
-    { href: '#projects', label: 'Projects' },
     { href: '#services', label: 'Services' },
+    { href: '#projects', label: 'Projects' },
+    { href: '#expertise', label: 'Expertise' },
+    { href: '#tech-stack', label: 'Tech Stack' },
+    { href: '#process', label: 'Process' },
   ];
 
   return (
     <nav className={`navbar${scrolled ? ' scrolled' : ''}`} id="navbar">
       <div className="nav-container">
         <a href="#hero" className="nav-logo" onClick={(e) => scrollTo(e, '#hero')}>
-          <span className="logo-text">S&S</span>
+          <span className="logo-text">S&amp;S</span>
+          <span className="logo-tagline">AI &amp; Data</span>
         </a>
         <button
           className={`nav-toggle${menuOpen ? ' active' : ''}`}
@@ -49,7 +51,7 @@ export default function Navbar() {
           ))}
           <li>
             <a href="#contact" className="nav-link nav-cta" onClick={(e) => scrollTo(e, '#contact')}>
-              Let's Talk
+              Hire Us
             </a>
           </li>
         </ul>
