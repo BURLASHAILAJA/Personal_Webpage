@@ -31,7 +31,7 @@ export default function Projects() {
             Project <span className="gradient-text">Highlights</span>
           </h2>
           <p className="section-subtitle-text">
-            Real-world deliverables across AI, voice, automation, and enterprise data — with measurable outcomes.
+            A few things we've shipped recently, and what they did for the client.
           </p>
         </div>
         <div className="projects-grid">

@@ -2,29 +2,29 @@ export const saiServices = [
   {
     icon: '<polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
     title: 'AI Agent Development',
-    desc: 'Custom autonomous AI agents using LangGraph for DevOps automation, SRE incident response, and intelligent business process orchestration.',
+    desc: 'Autonomous AI agents that plan, reason, and act across your APIs, CRMs, and SaaS tools — built with LangGraph for incident response, research, sales, and operations.',
     tag: 'Agentic AI',
     highlight: false,
   },
   {
+    icon: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>',
+    title: 'n8n & OpenClaw Automation',
+    desc: 'Eliminate manual work end-to-end: lead capture, data entry, email & WhatsApp follow-ups, CRM syncs (Pipedrive/HubSpot), reporting — all kinds of AI automation, delivered.',
+    tag: 'Automation',
+    highlight: false,
+  },
+  {
     icon: '<path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/>',
-    title: 'Voice AI Platforms (Vapi)',
-    desc: 'Enterprise multilingual voice support agents with RAG pipelines, Whisper STT, and real-time Pinecone vector search at scale.',
+    title: 'AI Chatbots & Voice Agents',
+    desc: '24/7 customer support, lead qualification, and appointment booking over web, WhatsApp, and phone — multilingual Vapi voice agents processing thousands of calls daily.',
     tag: 'Voice AI',
     highlight: false,
   },
   {
     icon: '<line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/>',
-    title: 'LLM Orchestration & Routing',
-    desc: 'Multi-provider LLM routing across OpenAI, Claude, Gemini, and Ollama — dynamically optimized for cost, latency, and output quality.',
-    tag: 'LLM Routing',
-    highlight: false,
-  },
-  {
-    icon: '<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>',
-    title: 'Workflow & CRM Automation',
-    desc: 'n8n pipelines, OpenClaw workspaces, Pipedrive CRM integration, and WhatsApp automation to eliminate manual business workflows.',
-    tag: 'Automation',
+    title: 'RAG & LLM Applications',
+    desc: 'Production RAG pipelines with vector search, hybrid retrieval, and hallucination mitigation. Multi-LLM routing (OpenAI, Claude, Gemini, Ollama) optimized for cost and quality.',
+    tag: 'RAG / LLM',
     highlight: false,
   },
 ];
@@ -60,21 +60,9 @@ export const shailajaServices = [
   },
 ];
 
-export const services = [
-  ...saiServices,
-  ...shailajaServices,
-  {
-    icon: '<circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>',
-    title: 'Flexible Engagement',
-    desc: 'Hourly, project-based, or monthly retainer. Remote-first. USD / EUR / GBP accepted.',
-    tag: '💼 Hire Us',
-    highlight: true,
-  },
-];
-
 export const whyMe = [
   { icon: '🏆', title: 'Proven Enterprise Experience', desc: '5+ years with Fortune 500 clients in manufacturing, pharma, and tech sectors globally' },
-  { icon: '🎓', title: '5 Industry Certifications', desc: 'Profisee MDM (LP1 & LP4), Databricks Data Engineer & Analyst, Statistics for ML' },
+  { icon: '🎓', title: 'We Build AND Teach', desc: 'Hire us to deliver, or learn from us directly — courses, 1:1 mentorship, and corporate training' },
   { icon: '🤝', title: 'Full AI + Data Coverage', desc: 'Rare combination of AI engineering and enterprise data expertise under one partnership' },
   { icon: '⚡', title: '24/7 Production Support', desc: 'Mission-critical production experience with rapid incident response and on-call availability' },
   { icon: '🌍', title: 'Cross-Timezone Delivery', desc: 'Proven stakeholder management across US, EU, and APAC time zones without friction' },

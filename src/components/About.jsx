@@ -4,7 +4,7 @@ export default function About() {
       name: 'Moguloju Sai',
       initials: 'MS',
       role: 'AI Engineer & Automation Specialist',
-      desc: 'Builds autonomous AI agents, voice intelligence platforms, and multi-LLM orchestration systems. From RAG pipelines and Vapi voice agents to LangGraph DevOps automation and n8n CRM workflows — Sai turns cutting-edge AI research into production-ready systems.',
+      desc: 'Sai builds AI systems that actually run in production: voice agents on Vapi handling thousands of calls a day, n8n and OpenClaw automations that take repetitive work off your plate, and LangGraph agents for DevOps and incident response.',
       highlights: [
         'Vapi Voice Intelligence & RAG Pipelines',
         'LangGraph Autonomous Agents (OpenSRE)',
@@ -18,7 +18,7 @@ export default function About() {
       name: 'Shailaja Burla',
       initials: 'SB',
       role: 'Data Engineer & MDM Consultant',
-      desc: 'Expert in the complete enterprise data lifecycle — Profisee MDM data modeling, golden record strategy, and Azure cloud data pipelines. 5+ years delivering high-quality data solutions for Fortune 500 clients in manufacturing and healthcare.',
+      desc: 'Shailaja has spent 5+ years building enterprise data platforms for Fortune 500 clients in manufacturing and healthcare: Profisee MDM implementations, golden record strategy, and Azure pipelines with ADF and Databricks.',
       highlights: [
         'Profisee MDM Certified Developer (LP1 & LP4)',
         'Azure ADF, Databricks & Delta Lake',
@@ -61,7 +61,7 @@ export default function About() {
                 <ul>
                   {member.highlights.map((h, idx) => (
                     <li key={idx}>
-                      <span className="bullet">✦</span> {h}
+                      <span className="bullet">•</span> {h}
                     </li>
                   ))}
                 </ul>
@@ -71,7 +71,7 @@ export default function About() {
                   <span>📧</span> {member.email}
                 </a>
                 <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="member-link">
-                  <span>💼</span> LinkedIn Profile
+                  <img src="/linkedin.svg" alt="" width="16" height="16" className="inline-icon" /> LinkedIn Profile
                 </a>
               </div>
             </div>

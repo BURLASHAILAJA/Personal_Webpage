@@ -1,12 +1,12 @@
 import { useEffect, useRef } from 'react';
 
 const TYPING_TEXTS = [
+  'n8n & OpenClaw Automation',
   'AI Agents & LLM Orchestration',
-  'Voice Intelligence Platforms',
-  'Enterprise MDM & Data Governance',
+  'AI Chatbots & Voice Agents',
   'Azure Data Engineering & Databricks',
-  'Workflow Automation & CRM Integration',
-  'RAG Pipelines & Vector Search',
+  'Enterprise MDM & Data Governance',
+  'Courses, Mentorship & Corporate Training',
 ];
 
 function useTypingEffect(texts) {
@@ -102,15 +102,16 @@ export default function Hero() {
           <span>Available for New Projects</span>
         </div>
         <h1 className="hero-title">
-          AI Automation &amp;<br />
-          <span className="gradient-text">Data Engineering Partners</span>
+          We Automate Your Business.<br />
+          <span className="gradient-text">We Teach You How.</span>
         </h1>
         <p className="hero-subtitle">
           <span ref={typingRef} />
           <span className="typing-cursor">|</span>
         </p>
         <p className="hero-description">
-          Moguloju Sai (AI Engineer) &amp; Shailaja Burla (Data Engineer) — Your end-to-end technology team
+          Sai builds AI automations with n8n, OpenClaw, and custom agents. Shailaja builds data platforms on Azure.
+          Hire us for your project, or learn these skills in our courses.
         </p>
         <div className="hero-partner-tags">
           <span className="partner-tag cyan">Sai — AI &amp; Automation</span>
@@ -119,7 +120,10 @@ export default function Hero() {
         </div>
         <div className="hero-cta">
           <a href="#services" className="btn btn-primary" onClick={(e) => scrollTo(e, '#services')}>
-            Explore Services
+            Hire Us
+          </a>
+          <a href="#courses" className="btn btn-secondary" onClick={(e) => scrollTo(e, '#courses')}>
+            Explore Courses
           </a>
           <a href="#contact" className="btn btn-secondary" onClick={(e) => scrollTo(e, '#contact')}>
             Schedule a Call

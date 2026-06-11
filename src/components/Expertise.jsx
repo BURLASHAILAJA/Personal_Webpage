@@ -59,7 +59,7 @@ export default function Expertise() {
             What We <span className="gradient-text">Specialize In</span>
           </h2>
           <p className="section-subtitle-text">
-            Two specialized engineers covering the full spectrum — from AI agents to enterprise data platforms.
+            The areas we know inside out, from AI agents to enterprise data platforms.
           </p>
         </div>
 

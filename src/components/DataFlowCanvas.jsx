@@ -11,10 +11,10 @@ export default function DataFlowCanvas() {
     const mouse = { x: null, y: null, radius: 150 };
 
     const colors = [
-      'rgba(139, 92, 246, 0.6)',
-      'rgba(6, 182, 212, 0.6)',
-      'rgba(59, 130, 246, 0.5)',
-      'rgba(236, 72, 153, 0.4)',
+      'rgba(226, 103, 42, 0.5)',
+      'rgba(201, 138, 0, 0.5)',
+      'rgba(240, 163, 94, 0.45)',
+      'rgba(207, 79, 18, 0.35)',
     ];
 
     function resize() {
@@ -46,7 +46,7 @@ export default function DataFlowCanvas() {
           if (dist < 120) {
             const opacity = (1 - dist / 120) * 0.3;
             ctx.beginPath();
-            ctx.strokeStyle = `rgba(139, 92, 246, ${opacity})`;
+            ctx.strokeStyle = `rgba(226, 103, 42, ${opacity})`;
             ctx.lineWidth = 0.5;
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);

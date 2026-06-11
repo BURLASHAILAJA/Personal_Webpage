@@ -17,9 +17,9 @@ export default function Footer() {
           <div className="footer-nav">
             <div className="footer-nav-col">
               <span className="footer-nav-heading">Services</span>
-              {['#services', '#expertise', '#projects'].map((href) => (
+              {['#services', '#courses', '#expertise', '#projects'].map((href) => (
                 <a key={href} href={href} onClick={(e) => scrollTo(e, href)}>
-                  {href === '#services' ? 'View Services' : href === '#expertise' ? 'Expertise' : 'Portfolio'}
+                  {href === '#services' ? 'View Services' : href === '#courses' ? 'Courses & Training' : href === '#expertise' ? 'Expertise' : 'Portfolio'}
                 </a>
               ))}
             </div>
@@ -35,21 +35,21 @@ export default function Footer() {
           <div className="footer-social">
             <span className="footer-nav-heading">Connect</span>
             <div className="footer-social-row">
-              <span className="social-label">Sai:</span>
-              <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" aria-label="Sai LinkedIn" className="social-link">
-                LinkedIn
+              <span className="social-label">Sai</span>
+              <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" aria-label="Sai on LinkedIn" className="social-icon-link">
+                <img src="/linkedin.svg" alt="LinkedIn" width="18" height="18" />
               </a>
-              <a href="mailto:saimoguloju2@gmail.com" aria-label="Sai Email" className="social-link">
-                Email
+              <a href="mailto:saimoguloju2@gmail.com" className="social-link">
+                saimoguloju2@gmail.com
               </a>
             </div>
             <div className="footer-social-row">
-              <span className="social-label">Shailaja:</span>
-              <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" aria-label="Shailaja LinkedIn" className="social-link">
-                LinkedIn
+              <span className="social-label">Shailaja</span>
+              <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" aria-label="Shailaja on LinkedIn" className="social-icon-link">
+                <img src="/linkedin.svg" alt="LinkedIn" width="18" height="18" />
               </a>
-              <a href="mailto:shailajaburla7755@gmail.com" aria-label="Shailaja Email" className="social-link">
-                Email
+              <a href="mailto:shailajaburla7755@gmail.com" className="social-link">
+                shailajaburla7755@gmail.com
               </a>
             </div>
           </div>

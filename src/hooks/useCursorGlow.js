@@ -7,7 +7,7 @@ export function useCursorGlow() {
       position: fixed;
       width: 400px;
       height: 400px;
-      background: radial-gradient(circle, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(226, 103, 42, 0.1) 0%, transparent 70%);
       border-radius: 50%;
       pointer-events: none;
       z-index: 0;

@@ -1,18 +1,28 @@
 import { useState, useRef, useEffect } from 'react';
 
-const SYSTEM_PROMPT = `You are a helpful, professional AI assistant representing the freelance agency of Moguloju Sai & Shailaja Burla. 
-Your goal is to answer questions about their background, skills, projects, and availability.
+const SYSTEM_PROMPT = `You are a helpful, professional AI assistant representing the freelance agency of Moguloju Sai & Shailaja Burla.
+They offer two things: (1) freelance services in AI automation and data engineering, and (2) courses & training.
+Your goal is to answer questions about their services, courses, background, skills, projects, and availability.
 
 Here is information about the partners:
-1. Moguloju Sai (AI Automation Engineer & LLM Orchestrator):
-   - Key Work: Voice intelligence platforms (Vapi) processing thousands of calls daily, RAG pipelines, evals and observability (OpenClaw, Engage IQ), autonomous incident-response agents (LangGraph/OpenSRE), and workflow automations (n8n, Pipedrive, WhatsApp/Email).
-   - Core Stack: OpenAI, Claude, Gemini, Llama, LangGraph, Vapi, n8n, Supabase, Pinecone, FastAPI, Docker, Python.
+1. Moguloju Sai (AI Engineer & Automation Specialist):
+   - Freelance Services: All kinds of AI automation — n8n & OpenClaw workflow automation (lead capture, email/WhatsApp follow-ups, CRM syncs), AI agent development (LangGraph), AI chatbots & voice agents (Vapi — customer support, lead qualification, appointment booking), RAG & LLM applications, multi-LLM orchestration.
+   - Core Stack: OpenAI, Claude, Gemini, Llama, LangGraph, Vapi, n8n, OpenClaw, Supabase, Pinecone, FastAPI, Docker, Python.
    - Projects: OpenClaw Workspaces, OpenSRE Autonomous DevOps Agent, Engage IQ Voice Platform, lc-shift Multi-LLM Routing.
 
-2. Shailaja Burla (Master Data Management & Azure Data Engineer):
-   - Key Work: End-to-end Profisee MDM implementations, data quality, match strategies for golden record creation, and Azure ETL/ELT pipelines.
+2. Shailaja Burla (Data Engineer & MDM Consultant):
+   - Freelance Services: End-to-end Profisee MDM implementations, Azure data engineering (ADF, Databricks, Delta Lake), data quality & governance, and SAP/Veeva/Siebel integrations.
    - Core Stack: Profisee MDM (certified Developer), Azure Data Factory, Databricks, SQL, PySpark, WebMethods, SAP.
    - Projects: Organization & Investigator MDM (Fortrea), Enterprise MDM (Fortune 500), Azure Data Pipeline (Lexmark), Databricks Analytics.
+
+Courses & Training (formats: 1:1 mentorship, live weekend cohorts, corporate training — all hands-on with real projects):
+- n8n AI Automation Mastery (6 weeks, beginner to advanced) — Sai
+- AI Agents with LangGraph & Python (8 weeks) — Sai
+- Voice AI Agents with Vapi (4 weeks) — Sai
+- Azure Data Engineering Bootcamp (8 weeks, includes Databricks certification prep) — Shailaja
+- Profisee MDM Developer Track (6 weeks) — Shailaja
+- SQL & PySpark for Data Engineers (4 weeks, beginner) — Shailaja
+For course pricing and batch dates, ask the visitor to email the partners.
 
 General:
 - Experience: 5+ years of combined enterprise experience.
@@ -25,8 +35,8 @@ General:
 Be polite, professional, concise, and helpful. Act as their intelligent AI representative. Recommend reaching out to them via their email or LinkedIn profiles for business inquiries.`;
 
 const SUGGESTIONS = [
-  "What AI services do you offer?",
-  "What Data Engineering services do you offer?",
+  "What AI automation services do you offer?",
+  "What courses do you teach?",
   "Are you available for freelance projects?",
   "How can I contact Sai and Shailaja?"
 ];
@@ -36,7 +46,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      content: "Hi! I'm the virtual assistant for Sai & Shailaja. Ask me anything about their AI Automation, LLM Orchestration, or Master Data Engineering capabilities!"
+      content: "Hi! I'm the virtual assistant for Sai & Shailaja. Ask me about their AI automation & data engineering services, or about their courses and training programs!"
     }
   ]);
   const [input, setInput] = useState('');
@@ -164,7 +174,7 @@ export default function Chatbot() {
           {messages.map((msg, index) => (
             <div key={index} className={`message-row ${msg.role}`}>
               {msg.role === 'assistant' && (
-                <div className="bot-avatar">SB</div>
+                <div className="bot-avatar">S&amp;S</div>
               )}
               <div className="message-bubble">
                 {msg.content}

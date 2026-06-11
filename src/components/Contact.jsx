@@ -13,7 +13,7 @@ export default function Contact() {
             <div className="contact-card">
               <div className="availability-status">
                 <span className="status-dot" />
-                <span>Available for freelance projects starting immediately</span>
+                <span>Available for freelance projects &amp; new course batches — starting immediately</span>
               </div>
               <div className="contact-methods">
                 <div className="contact-method-group" style={{ marginBottom: '15px' }}>
@@ -26,7 +26,7 @@ export default function Contact() {
                     </div>
                   </a>
                   <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" className="contact-method">
-                    <span className="method-icon">💼</span>
+                    <span className="method-icon"><img src="/linkedin.svg" alt="" width="20" height="20" /></span>
                     <div className="method-details">
                       <span className="method-label">LinkedIn</span>
                       <span className="method-value">linkedin.com/in/moguloju-sai-2b060b228</span>
@@ -44,7 +44,7 @@ export default function Contact() {
                     </div>
                   </a>
                   <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" className="contact-method">
-                    <span className="method-icon">💼</span>
+                    <span className="method-icon"><img src="/linkedin.svg" alt="" width="20" height="20" /></span>
                     <div className="method-details">
                       <span className="method-label">LinkedIn</span>
                       <span className="method-value">linkedin.com/in/burlashailaja</span>
@@ -63,11 +63,14 @@ export default function Contact() {
             </div>
           </div>
           <div className="contact-cta">
-            <h3>Ready to start a project?</h3>
-            <p>Whether you need custom AI agents, LLM orchestration, Vapi voice integrations, or enterprise Profisee MDM solutions and Databricks data lakes—we have you covered.</p>
+            <h3>Ready to start a project — or start learning?</h3>
+            <p>Whether you need n8n &amp; OpenClaw automations, AI agents, voice integrations, enterprise MDM and Databricks data platforms — or want to enroll in one of our hands-on courses — we have you covered.</p>
             <div className="cta-buttons">
               <a href="mailto:saimoguloju2@gmail.com,shailajaburla7755@gmail.com?subject=Project%20Inquiry" className="btn btn-primary btn-large">
-                Email Both Partners
+                Hire Us for a Project
+              </a>
+              <a href="mailto:saimoguloju2@gmail.com,shailajaburla7755@gmail.com?subject=Course%20Enquiry" className="btn btn-secondary btn-large">
+                Ask About Courses
               </a>
             </div>
             <div className="currency-note">

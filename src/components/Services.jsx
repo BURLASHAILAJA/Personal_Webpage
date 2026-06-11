@@ -32,7 +32,7 @@ export default function Services() {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="section-subtitle-text">
-            Two specialized engineers. One unified team. End-to-end AI and data solutions for modern businesses.
+            Pick what you need: AI automation from Sai, data engineering from Shailaja, or both together for end-to-end projects.
           </p>
         </div>
 

@@ -1,0 +1,62 @@
+export const courses = [
+  {
+    owner: 'sai',
+    title: 'n8n AI Automation Mastery',
+    level: 'Beginner → Advanced',
+    duration: '6 weeks',
+    desc: 'Go from zero to selling automations: nodes, APIs, and webhooks through to full AI agents, RAG workflows, MCP integration, and voice automation — built on real business scenarios.',
+    topics: ['n8n Fundamentals', 'APIs & Webhooks', 'AI Agents in n8n', 'RAG Workflows', 'MCP Integration', 'WhatsApp & CRM Automation'],
+    badge: '🔥 Most Popular',
+  },
+  {
+    owner: 'sai',
+    title: 'AI Agents with LangGraph & Python',
+    level: 'Intermediate',
+    duration: '8 weeks',
+    desc: 'Build production-grade agentic AI: tool calling, memory backends, multi-step reasoning loops, and multi-agent orchestration — deployed with FastAPI and Docker.',
+    topics: ['LangGraph', 'Tool Calling', 'Multi-Agent Systems', 'RAG + Pinecone', 'Evals & Observability', 'FastAPI + Docker Deploy'],
+    badge: null,
+  },
+  {
+    owner: 'sai',
+    title: 'Voice AI Agents with Vapi',
+    level: 'Intermediate',
+    duration: '4 weeks',
+    desc: 'Build inbound and outbound voice agents for customer support, lead qualification, and appointment booking — STT/TTS pipelines, RAG knowledge bases, and hallucination control.',
+    topics: ['Vapi Platform', 'Whisper STT', 'Call Flows & Routing', 'RAG Knowledge Bases', 'Multilingual Agents'],
+    badge: null,
+  },
+  {
+    owner: 'shailaja',
+    title: 'Azure Data Engineering Bootcamp',
+    level: 'Beginner → Advanced',
+    duration: '8 weeks',
+    desc: 'End-to-end cloud data engineering: ADF pipelines, Databricks, PySpark, and Delta Lake architecture — with hands-on projects and Databricks Associate certification prep.',
+    topics: ['Azure Data Factory', 'Databricks', 'PySpark', 'Delta Lake & ADLS Gen2', 'SQL Mastery', 'Certification Prep'],
+    badge: '🔥 Most Popular',
+  },
+  {
+    owner: 'shailaja',
+    title: 'Profisee MDM Developer Track',
+    level: 'Intermediate',
+    duration: '6 weeks',
+    desc: 'Master data management from a certified Profisee developer: data modeling, quality rules, match strategies for golden records, and downstream integrations (Veeva, Siebel, SAP).',
+    topics: ['MDM Concepts', 'Data Modeling', 'Match & Merge Strategy', 'Golden Records', 'Quality Rules', 'Integration Patterns'],
+    badge: '🎓 Cert-Aligned',
+  },
+  {
+    owner: 'shailaja',
+    title: 'SQL & PySpark for Data Engineers',
+    level: 'Beginner',
+    duration: '4 weeks',
+    desc: 'The foundation every data role needs: advanced SQL, Python for data, and PySpark transformations at enterprise scale — interview-ready with real datasets.',
+    topics: ['Advanced SQL', 'Python for Data', 'PySpark DataFrames', 'ETL Patterns', 'Interview Prep'],
+    badge: null,
+  },
+];
+
+export const courseFormats = [
+  { icon: '👤', title: '1:1 Mentorship', desc: 'Personalized live sessions, flexible scheduling, direct access to your mentor' },
+  { icon: '👥', title: 'Live Cohorts', desc: 'Weekend batches with hands-on projects, peer learning, and lifetime recordings' },
+  { icon: '🏢', title: 'Corporate Training', desc: 'Custom curriculum for your team — upskill on AI automation or data engineering' },
+];

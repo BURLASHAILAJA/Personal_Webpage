@@ -5,6 +5,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Expertise from './components/Expertise';
 import Projects from './components/Projects';
+import Courses from './components/Courses';
 import TechStack from './components/TechStack';
 import Certifications from './components/Certifications';
 import WhyMe from './components/WhyMe';
@@ -29,6 +30,7 @@ export default function App() {
         <Services />
         <Expertise />
         <Projects />
+        <Courses />
         <TechStack />
         <Certifications />
         <WhyMe />

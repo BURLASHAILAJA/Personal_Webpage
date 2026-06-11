@@ -21,8 +21,8 @@ export default function Navbar() {
     { href: '#about', label: 'About' },
     { href: '#services', label: 'Services' },
     { href: '#projects', label: 'Projects' },
+    { href: '#courses', label: 'Courses' },
     { href: '#expertise', label: 'Expertise' },
-    { href: '#tech-stack', label: 'Tech Stack' },
     { href: '#process', label: 'Process' },
   ];
 

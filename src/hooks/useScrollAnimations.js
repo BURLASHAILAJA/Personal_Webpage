@@ -23,6 +23,8 @@ export function useScrollAnimations() {
       '.cert-badge',
       '.project-card',
       '.service-card',
+      '.course-card',
+      '.course-format-card',
       '.why-item',
       '.impact-card',
       '.tech-category',
