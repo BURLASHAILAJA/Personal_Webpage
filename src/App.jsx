@@ -14,11 +14,9 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Chatbot from './components/Chatbot';
 import { useScrollAnimations } from './hooks/useScrollAnimations';
-import { useCursorGlow } from './hooks/useCursorGlow';
 
 export default function App() {
   useScrollAnimations();
-  useCursorGlow();
 
   return (
     <>

@@ -25,11 +25,18 @@ export default function Contact() {
                       <span className="method-value">saimoguloju2@gmail.com</span>
                     </div>
                   </a>
-                  <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" className="contact-method">
+                  <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" className="contact-method" style={{ marginBottom: '5px' }}>
                     <span className="method-icon"><img src="/linkedin.svg" alt="" width="20" height="20" /></span>
                     <div className="method-details">
                       <span className="method-label">LinkedIn</span>
                       <span className="method-value">linkedin.com/in/moguloju-sai-2b060b228</span>
+                    </div>
+                  </a>
+                  <a href="https://github.com/Saimoguloju" target="_blank" rel="noopener noreferrer" className="contact-method">
+                    <span className="method-icon"><img src="/github.svg" alt="" width="20" height="20" /></span>
+                    <div className="method-details">
+                      <span className="method-label">GitHub</span>
+                      <span className="method-value">github.com/Saimoguloju</span>
                     </div>
                   </a>
                 </div>
@@ -43,11 +50,18 @@ export default function Contact() {
                       <span className="method-value">shailajaburla7755@gmail.com</span>
                     </div>
                   </a>
-                  <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" className="contact-method">
+                  <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" className="contact-method" style={{ marginBottom: '5px' }}>
                     <span className="method-icon"><img src="/linkedin.svg" alt="" width="20" height="20" /></span>
                     <div className="method-details">
                       <span className="method-label">LinkedIn</span>
                       <span className="method-value">linkedin.com/in/burlashailaja</span>
+                    </div>
+                  </a>
+                  <a href="https://github.com/BURLASHAILAJA" target="_blank" rel="noopener noreferrer" className="contact-method">
+                    <span className="method-icon"><img src="/github.svg" alt="" width="20" height="20" /></span>
+                    <div className="method-details">
+                      <span className="method-label">GitHub</span>
+                      <span className="method-value">github.com/BURLASHAILAJA</span>
                     </div>
                   </a>
                 </div>

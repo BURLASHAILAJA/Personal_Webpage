@@ -2582,3 +2582,81 @@ ul {
     align-items: center;
     gap: 6px;
 }
+
+/* ============================================
+   VISUAL POLISH (light theme refinements)
+   ============================================ */
+
+/* Soft ambient color washes instead of the cursor glow */
+body {
+    background:
+        radial-gradient(900px 600px at 85% -10%, rgba(226, 103, 42, 0.10), transparent 60%),
+        radial-gradient(800px 600px at -10% 30%, rgba(201, 138, 0, 0.08), transparent 60%),
+        radial-gradient(700px 500px at 50% 110%, rgba(226, 103, 42, 0.07), transparent 60%),
+        var(--color-bg-primary);
+    background-attachment: fixed;
+}
+
+/* Section tags become soft pills */
+.section-tag {
+    background: rgba(226, 103, 42, 0.1);
+    border: 1px solid rgba(226, 103, 42, 0.25);
+    padding: 4px 14px;
+    border-radius: var(--radius-full);
+    letter-spacing: 1.5px;
+}
+
+/* Accent bar under section titles */
+.section-title::after {
+    content: '';
+    display: block;
+    width: 56px;
+    height: 4px;
+    margin: 14px auto 0;
+    border-radius: var(--radius-full);
+    background: var(--gradient-primary);
+}
+
+/* Buttons: resting shadow + smoother hover */
+.btn-primary {
+    box-shadow: 0 4px 14px rgba(226, 103, 42, 0.3);
+}
+
+.btn-primary:hover {
+    box-shadow: 0 8px 24px rgba(226, 103, 42, 0.4);
+    transform: translateY(-3px);
+}
+
+.btn-secondary {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(43, 32, 22, 0.06);
+}
+
+/* Hero stats inside a soft glass card */
+.hero-stats {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(226, 103, 42, 0.15);
+    border-radius: var(--radius-2xl);
+    padding: var(--spacing-lg) var(--spacing-xl);
+    box-shadow: var(--shadow-card);
+    flex-wrap: wrap;
+    gap: var(--spacing-2xl);
+}
+
+/* Cards: a touch more depth at rest */
+.service-card,
+.course-card,
+.expertise-card,
+.project-card,
+.about-member-card,
+.impact-card {
+    box-shadow: 0 2px 12px rgba(43, 32, 22, 0.05);
+}
+
+@media (max-width: 768px) {
+    .hero-stats {
+        gap: var(--spacing-lg);
+        justify-content: space-around;
+    }
+}

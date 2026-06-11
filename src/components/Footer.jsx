@@ -39,6 +39,9 @@ export default function Footer() {
               <a href="https://www.linkedin.com/in/moguloju-sai-2b060b228/" target="_blank" rel="noopener noreferrer" aria-label="Sai on LinkedIn" className="social-icon-link">
                 <img src="/linkedin.svg" alt="LinkedIn" width="18" height="18" />
               </a>
+              <a href="https://github.com/Saimoguloju" target="_blank" rel="noopener noreferrer" aria-label="Sai on GitHub" className="social-icon-link">
+                <img src="/github.svg" alt="GitHub" width="18" height="18" />
+              </a>
               <a href="mailto:saimoguloju2@gmail.com" className="social-link">
                 saimoguloju2@gmail.com
               </a>
@@ -47,6 +50,9 @@ export default function Footer() {
               <span className="social-label">Shailaja</span>
               <a href="https://linkedin.com/in/burlashailaja" target="_blank" rel="noopener noreferrer" aria-label="Shailaja on LinkedIn" className="social-icon-link">
                 <img src="/linkedin.svg" alt="LinkedIn" width="18" height="18" />
+              </a>
+              <a href="https://github.com/BURLASHAILAJA" target="_blank" rel="noopener noreferrer" aria-label="Shailaja on GitHub" className="social-icon-link">
+                <img src="/github.svg" alt="GitHub" width="18" height="18" />
               </a>
               <a href="mailto:shailajaburla7755@gmail.com" className="social-link">
                 shailajaburla7755@gmail.com

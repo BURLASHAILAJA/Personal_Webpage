@@ -13,6 +13,7 @@ export default function About() {
       color: 'cyan',
       email: 'saimoguloju2@gmail.com',
       linkedin: 'https://www.linkedin.com/in/moguloju-sai-2b060b228/',
+      github: 'https://github.com/Saimoguloju',
     },
     {
       name: 'Shailaja Burla',
@@ -27,6 +28,7 @@ export default function About() {
       color: 'purple',
       email: 'shailajaburla7755@gmail.com',
       linkedin: 'https://linkedin.com/in/burlashailaja',
+      github: 'https://github.com/BURLASHAILAJA',
     },
   ];
 
@@ -72,6 +74,9 @@ export default function About() {
                 </a>
                 <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="member-link">
                   <img src="/linkedin.svg" alt="" width="16" height="16" className="inline-icon" /> LinkedIn Profile
+                </a>
+                <a href={member.github} target="_blank" rel="noopener noreferrer" className="member-link">
+                  <img src="/github.svg" alt="" width="16" height="16" className="inline-icon" /> GitHub Profile
                 </a>
               </div>
             </div>
